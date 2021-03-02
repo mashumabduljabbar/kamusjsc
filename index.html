@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>DAFTAR SINGKATAN</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Ketik Singakatan" title="Ketik Singakatan">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Singakatan</th>
+    <th style="width:40%;">Kepanjangan</th>
+  </tr>
+  <tr><td>	ADG	</td><td>	Graphic Designer Senior	</td></tr>
+<tr><td>	AO	</td><td>	Account Officer	</td></tr>
+<tr><td>	API	</td><td>	Application Programming Interface	</td></tr>
+<tr><td>	ASN	</td><td>	Aparatur Sipil Negara	</td></tr>
+<tr><td>	BA	</td><td>	Business Analyst	</td></tr>
+<tr><td>	BAPPEDA	</td><td>	Badan Perencanaan dan Pembangunan Daerah	</td></tr>
+<tr><td>	BDJ	</td><td>	Backend Developer Junior	</td></tr>
+<tr><td>	BDS	</td><td>	Backend Developer Senior	</td></tr>
+<tr><td>	BIROPEM	</td><td>	Biro Pemerintahan	</td></tr>
+<tr><td>	BKDDKI	</td><td>	Badan Kepegawaian Daerah Provinsi Daerah Khusus Ibukota Jakarta	</td></tr>
+<tr><td>	BLUD	</td><td>	Badan Layanan Umum Daerah	</td></tr>
+<tr><td>	BPBD	</td><td>	Badan Penanggulangan Bencana Daerah	</td></tr>
+<tr><td>	BPBUMD	</td><td>	Badan Pembina BUMD	</td></tr>
+<tr><td>	BPKAD	</td><td>	Badan Pengelola Kuangan Daerah dan Badan Pengelola Aset Daerah	</td></tr>
+<tr><td>	BPRD / BAPENDA	</td><td>	Badan Pendapatan Daerah	</td></tr>
+<tr><td>	BPSDM	</td><td>	Badan Pengembangan Sumber Daya Manusia	</td></tr>
+<tr><td>	BUMD	</td><td>	Badan Usaha Milik Daerah	</td></tr>
+<tr><td>	CCTV	</td><td>	Closed Circuit Television	</td></tr>
+<tr><td>	CI/CD	</td><td>	Continuous Integration & Continuous Delivery/Deployment	</td></tr>
+<tr><td>	CMS	</td><td>	Content Management System	</td></tr>
+<tr><td>	CO	</td><td>	Compliance Officer	</td></tr>
+<tr><td>	CPK	</td><td>	Customer Product Knowledge	</td></tr>
+<tr><td>	CRM	</td><td>	Citizen Relation Management	</td></tr>
+<tr><td>	CRUD	</td><td>	Create, Edit, Update, Delete	</td></tr>
+<tr><td>	CSS	</td><td>	Cascading Style Sheets	</td></tr>
+<tr><td>	CSV	</td><td>	Comma Separated Values	</td></tr>
+<tr><td>	CW	</td><td>	Content Writer	</td></tr>
+<tr><td>	D&O	</td><td>	Development & Operational	</td></tr>
+<tr><td>	DB	</td><td>	Database	</td></tr>
+<tr><td>	DCKTRP	</td><td>	Dinas Cipta Karya, Tata Ruang, dan Pertanahan	</td></tr>
+<tr><td>	DDL	</td><td>	Data Definition Language	</td></tr>
+<tr><td>	DE	</td><td>	Data Engineer	</td></tr>
+<tr><td>	DINKES	</td><td>	Dinas Kesehatan	</td></tr>
+<tr><td>	DINSOS	</td><td>	Dinas Sosial	</td></tr>
+<tr><td>	DISDIK	</td><td>	Dinas Pendidikan	</td></tr>
+<tr><td>	DISDUKCAPIL	</td><td>	Dinas Kependudukan dan Pencatatan Sipil	</td></tr>
+<tr><td>	DISGULKARMAT	</td><td>	Dinas Penanggulangan Kebakaran dan Penyelamatan	</td></tr>
+<tr><td>	DISHUB	</td><td>	Dinas Perhubungan	</td></tr>
+<tr><td>	DISKOMINFOTIK	</td><td>	Dinas Komunikasi, Informatika dan Statistik	</td></tr>
+<tr><td>	DISPORA	</td><td>	Dinas Pemuda dan Olah Raga	</td></tr>
+<tr><td>	DISPPKUKM	</td><td>	Dinas Perindustrian Perdagangan Koperasi Usaha Kecil dan Menengah	</td></tr>
+<tr><td>	DKPKP	</td><td>	Dinas Ketahanan Pangan, Kelautan, dan Pertanian	</td></tr>
+<tr><td>	DLHK	</td><td>	Dinas Lingkungan Hidup dan Kebersihan	</td></tr>
+<tr><td>	DML	</td><td>	Data Manipulation Language	</td></tr>
+<tr><td>	DNS	</td><td>	Domain Name System	</td></tr>
+<tr><td>	DPMPTSP	</td><td>	Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu	</td></tr>
+<tr><td>	DPPAPP	</td><td>	Dinas Pemberdayaan, Perlindungan Anak dan Pengendalian Penduduk	</td></tr>
+<tr><td>	DPRD	</td><td>	Dewan Perwakilan Rakyat Daerah	</td></tr>
+<tr><td>	DRA	</td><td>	Data and Research Analyst	</td></tr>
+<tr><td>	DSDA	</td><td>	Dinas Sumber Daya Air	</td></tr>
+<tr><td>	DSJ	</td><td>	Data Scientist Junior	</td></tr>
+<tr><td>	DSS	</td><td>	Data Scientist Senior	</td></tr>
+<tr><td>	EKIN	</td><td>	Elektronik Kinerja	</td></tr>
+<tr><td>	ETL	</td><td>	Extract, Transform and Load	</td></tr>
+<tr><td>	FA	</td><td>	Finance and Administration	</td></tr>
+<tr><td>	FDJ	</td><td>	Frontend Developer Junior	</td></tr>
+<tr><td>	FDS	</td><td>	Frontend Developer Senior	</td></tr>
+<tr><td>	FSD	</td><td>	Fuctional Spesification Document	</td></tr>
+<tr><td>	GIS	</td><td>	Geographic Information System	</td></tr>
+<tr><td>	HTML	</td><td>	Hypertext Markup Language	</td></tr>
+<tr><td>	HTTP	</td><td>	Hypertext Transfer Protocol	</td></tr>
+<tr><td>	HTTPS	</td><td>	Hypertext Transfer Protocol Secure	</td></tr>
+<tr><td>	IP	</td><td>	Internet Protocol	</td></tr>
+<tr><td>	ITH	</td><td>	IT Helpdesk	</td></tr>
+<tr><td>	ITM	</td><td>	IT Operations and Maintenance	</td></tr>
+<tr><td>	JAD	</td><td>	Junior Android Developer	</td></tr>
+<tr><td>	JAKGO	</td><td>	JAKARTA.GO.ID	</td></tr>
+<tr><td>	JAKI	</td><td>	Jakarta Kini	</td></tr>
+<tr><td>	JB	</td><td>	Jakarta Barat	</td></tr>
+<tr><td>	JDA	</td><td>	Junior Data Analyst	</td></tr>
+<tr><td>	JDCN	</td><td>	Jakarta Development Collaboration Network	</td></tr>
+<tr><td>	JIX	</td><td>	Junior UI/UX	</td></tr>
+<tr><td>	JOD	</td><td>	Junior iOS Developer	</td></tr>
+<tr><td>	JP	</td><td>	Jakarta Pusat	</td></tr>
+<tr><td>	JS	</td><td>	JavaScript	</td></tr>
+<tr><td>	JS	</td><td>	Jakarta Selatan	</td></tr>
+<tr><td>	JSC	</td><td>	Jakarta Smart City	</td></tr>
+<tr><td>	JSON	</td><td>	JavaScript Object Notation	</td></tr>
+<tr><td>	JT	</td><td>	Jakarta Timur	</td></tr>
+<tr><td>	JU	</td><td>	Jakarta Utara	</td></tr>
+<tr><td>	KADIS	</td><td>	Kepala Dinas	</td></tr>
+<tr><td>	LAPBUL	</td><td>	Laporan Bulanan	</td></tr>
+<tr><td>	MVC	</td><td>	Model View Controller 	</td></tr>
+<tr><td>	MVP	</td><td>	Model View Presenter	</td></tr>
+<tr><td>	MVVM	</td><td>	Model View ViewModel	</td></tr>
+<tr><td>	NFO	</td><td>	Network Field Operation	</td></tr>
+<tr><td>	NTS	</td><td>	Network Technical Support	</td></tr>
+<tr><td>	OOP	</td><td>	Object Oriented Programming	</td></tr>
+<tr><td>	OPD	</td><td>	Organisasi Perangkat Daerah	</td></tr>
+<tr><td>	OPL	</td><td>	Operasional Produk dan Layanan	</td></tr>
+<tr><td>	OPT	</td><td>	Operasional Produk dan Trainer	</td></tr>
+<tr><td>	ORB	</td><td>	Organisasi dan Reformasi Birokrasi	</td></tr>
+<tr><td>	PAL	</td><td>	Product Analyst	</td></tr>
+<tr><td>	PAP	</td><td>	Pengembangan dan Analisa Produk	</td></tr>
+<tr><td>	PHP	</td><td>	Hypertext Preprocessor	</td></tr>
+<tr><td>	PLH	</td><td>	Pelaksana Harian	</td></tr>
+<tr><td>	PLT	</td><td>	Pelaksana Tugas	</td></tr>
+<tr><td>	PME	</td><td>	Product Marketing Executive 	</td></tr>
+<tr><td>	PPID	</td><td>	Pejabat Pengelola Informasi Dan Dokumentasi	</td></tr>
+<tr><td>	PPL	</td><td>	Pengembangan Produk dan Layanan	</td></tr>
+<tr><td>	PPT	</td><td>	Microsoft Power Point	</td></tr>
+<tr><td>	PTSP	</td><td>	Pelayanan Terpadu Satu Pintu	</td></tr>
+<tr><td>	PUPR	</td><td>	Pekerjaan Umum dan Perumahan Rakyat	</td></tr>
+<tr><td>	PUSDATIN	</td><td>	Pusat Data dan Informasi	</td></tr>
+<tr><td>	QA	</td><td>	Quality Analyst	</td></tr>
+<tr><td>	QOS	</td><td>	Quality of Service	</td></tr>
+<tr><td>	RSKD	</td><td>	Rumah Sakit Khusus Daerah	</td></tr>
+<tr><td>	RSUD	</td><td>	Rumah Sakit Umum Daerah	</td></tr>
+<tr><td>	S3	</td><td>	Security System Support	</td></tr>
+<tr><td>	SA	</td><td>	System Analyst	</td></tr>
+<tr><td>	SAD	</td><td>	Senior Android Developer	</td></tr>
+<tr><td>	SDA	</td><td>	Sumber Daya Air	</td></tr>
+<tr><td>	SDK	</td><td>	Software Development Kit	</td></tr>
+<tr><td>	SDLC	</td><td>	Software Development Life Cycle	</td></tr>
+<tr><td>	SEKDA	</td><td>	Sekretaris Daerah	</td></tr>
+<tr><td>	SETDA	</td><td>	Sekretariat Daerah	</td></tr>
+<tr><td>	SIB	</td><td>	Sistem Informasi Banjir	</td></tr>
+<tr><td>	SIM	</td><td>	Sistem Informasi Manajemen	</td></tr>
+<tr><td>	SIT	</td><td>	System Integration Testing	</td></tr>
+<tr><td>	SKLM	</td><td>	Survei Kepuasan Layanan Masyarakat	</td></tr>
+<tr><td>	SKM	</td><td>	Survey Kepuasan Masyarakat	</td></tr>
+<tr><td>	SKPD	</td><td>	Satuan Kerja Perangkat Daerah	</td></tr>
+<tr><td>	SLA	</td><td>	Service Level Agreement	</td></tr>
+<tr><td>	SMO	</td><td>	Social Media Officer	</td></tr>
+<tr><td>	SOP	</td><td>	Standar Operasional Prosedur	</td></tr>
+<tr><td>	SOS	</td><td>	Senior iOS Developer	</td></tr>
+<tr><td>	SOTK	</td><td>	Susunan Organisasi dan Tata Kerja	</td></tr>
+<tr><td>	SQL	</td><td>	Structured Query Language	</td></tr>
+<tr><td>	SRS	</td><td>	Senior Research Scientist 	</td></tr>
+<tr><td>	SSD	</td><td>	Senior Web Spasial Developer	</td></tr>
+<tr><td>	SSL	</td><td>	Secure Sockets Layer	</td></tr>
+<tr><td>	SUDIN	</td><td>	Suku Dinas	</td></tr>
+<tr><td>	SUDINKES	</td><td>	Suku Dinas Kesehatan	</td></tr>
+<tr><td>	TA	</td><td>	Tenaga Ahli	</td></tr>
+<tr><td>	TATS	</td><td>	Tenaga Ahli Tehcnical Support	</td></tr>
+<tr><td>	TCP	</td><td>	Transmission Control Protocol	</td></tr>
+<tr><td>	TGUPP	</td><td>	Tim Gubernur untuk Percepatan Pembangunan	</td></tr>
+<tr><td>	TKD	</td><td>	Tunjangan Kinerja Daerah	</td></tr>
+<tr><td>	TL	</td><td>	Tindak Lanjut	</td></tr>
+<tr><td>	TLS	</td><td>	Transport Layer Security	</td></tr>
+<tr><td>	TS	</td><td>	Technical Support	</td></tr>
+<tr><td>	TUPOKSI	</td><td>	Tugas Pokok dan Fungsi	</td></tr>
+<tr><td>	TW	</td><td>	Technical Writer	</td></tr>
+<tr><td>	TW	</td><td>	Triwulan	</td></tr>
+<tr><td>	UAT	</td><td>	User Acceptance Testing	</td></tr>
+<tr><td>	UDP	</td><td>	User Datagram Protocol	</td></tr>
+<tr><td>	UI/UX	</td><td>	User Interface / User Experience	</td></tr>
+<tr><td>	UP	</td><td>	Unit Pengelola	</td></tr>
+<tr><td>	UPT	</td><td>	Unit Pengelola Teknis	</td></tr>
+<tr><td>	UXW	</td><td>	UX Writer	</td></tr>
+<tr><td>	VGS	</td><td>	Photographer/Videographer Senior  	</td></tr>
+<tr><td>	VPN	</td><td>	Virtual Private Network	</td></tr>
+<tr><td>	VPS	</td><td>	Virtual Private Server	</td></tr>
+<tr><td>	WHM	</td><td>	Web Host Manager	</td></tr>
+<tr><td>	WWW	</td><td>	World Wide Web	</td></tr>
+<tr><td>	XLS	</td><td>	Microsoft Excel Spreadsheet	</td></tr>
+<tr><td>	XML	</td><td>	Extensible Markup Language	</td></tr>
+
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+</body>
+</html>
